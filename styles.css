@@ -72,15 +72,15 @@ body {
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding:0px 150px 0px 220px;
+    padding:0px 150px 80px 220px; /*TRBL*/
     gap:35px
 }
 
 .cards {
     display:flex;
-    
+    /* border:5px solid green; */
+    gap:30px;
 }
-
 
 .information-header-text {
     font-size:36px;
@@ -97,4 +97,33 @@ body {
 }
 
 
+.card p {
+    width:140px;
+    margin:0 0 10px 0; /*TRBL*/
+}
+
+/*-----------------------------------------------------*/
+
+.quote-section {
+    background:#E5E7EB;
+    padding: 50px 200px 80px 320px;
+    border:5px solid green;
+
+}
+
+.quote-paragraph {
+    font-size:36px;
+    font-style: italic;
+    color:#1F2937;
+    margin-bottom: 0;
+    
+}
+
+.quote-by {
+    font-weight: bold;
+    font-size:18px;
+    display:flex;
+    justify-content: flex-end;
+    padding:5px 50px 0 0;
+}
 
